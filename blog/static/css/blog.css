@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 body{
+=======
+body { 
+>>>>>>> 99952d33caea55c3695a3564c8daef127ef93789
     background-color: black;
 }
 
 .page-header {
     background-color: darkblue;
+<<<<<<< HEAD
     width: 100%;
     margin-top: 0;
+=======
+    margin-top: 0;
+    width: 100%;
+>>>>>>> 99952d33caea55c3695a3564c8daef127ef93789
     padding: 20px 20px 20px 40px;
 }
 
@@ -58,4 +67,8 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: yellow;
     font-size: 32pt;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 99952d33caea55c3695a3564c8daef127ef93789
