@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+.page-header {
+    background-color: darkblue;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: yellow;
+    font-size: 49pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+    color: white;
+    font-size: 12pt;
+}
+
+h1, h2, h3, h4 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.date {
+    color: skyblue;
+    float: right;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: yellow;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.post {
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    border: 5px solid white;
+    padding: 30px;
+    margin: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: yellow;
+    font-size: 32pt;
+}
