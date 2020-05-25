@@ -143,3 +143,31 @@ console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
 1590410905377	Marionette	INFO	Listening on port 50719
 1590410905396	Marionette	WARN	TLS certificate errors will be ignored for this session
 1590410905715	Marionette	INFO	Stopped listening on port 50719
+1590412403611	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jb/1fmdkmz120qflp426lh928140000gn/T/rust_mozprofileWHG2em"
+1590412404044	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590412404249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590412404249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590412404249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590412404249	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590412406111	Marionette	INFO	Listening on port 50976
+1590412406182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590412406609	Marionette	INFO	Stopped listening on port 50976
+1590412422819	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jb/1fmdkmz120qflp426lh928140000gn/T/rust_mozprofile1yvWdQ"
+1590412423146	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590412423351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590412423351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590412423351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590412423351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590412424785	Marionette	INFO	Listening on port 51041
+1590412424850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590412425156	Marionette	INFO	Stopped listening on port 51041
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+1590412506879	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jb/1fmdkmz120qflp426lh928140000gn/T/rust_mozprofilegX0coe"
+1590412507211	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590412507415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590412507415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590412507415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590412507415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590412509023	Marionette	INFO	Listening on port 51104
+1590412509029	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590412509452	Marionette	INFO	Stopped listening on port 51104
