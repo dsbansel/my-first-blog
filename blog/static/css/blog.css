@@ -15,6 +15,7 @@ body {
     text-decoration: none;
 }
 
+
 .content {
     margin-left: 40px;
     color: white;
@@ -24,6 +25,7 @@ body {
 h1, h2, h3, h4 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
 
 .date {
     color: skyblue;
@@ -58,4 +60,11 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: yellow;
     font-size: 32pt;
+}
+
+.page-header h3, .page-header h3 a, .page-header h3 a:visited, .page-header h3 a:active {
+    color: white;
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: right;
 }
