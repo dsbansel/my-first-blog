@@ -1,0 +1,12 @@
+{% extends 'CV/CV_base.html' %}
+{% block content %}
+    {% for section in sections %}
+        <div class="section">
+            <div class="date">
+                <p>last edited: {{ section.last_edited }}</p>
+            </div>
+            <h2><a href="{% url 'section_detail' pk=section.pk %}">{{ section.header }}</a></h2>
+            <p>{{ section.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}

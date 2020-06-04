@@ -10,7 +10,7 @@ body {
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: yellow;
+    color: rgb(255, 196, 0);
     font-size: 49pt;
     text-decoration: none;
 }
@@ -36,34 +36,34 @@ h1, h2, h3, h4 {
     float: right;
 }
 
-.post-form textarea, .post-form input {
+.section-form textarea, .section-form input {
     width: 100%;
     background-color: rgb(43, 43, 43);
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: yellow;
+    color: rgb(255, 196, 0);
     float: right;
     font-size: 26pt;
     margin-right: 20px;
     margin-top: 20px;
 }
 
-.post {
+.section {
     background-color: rgb(43, 43, 43);
     width: 100%;
-    border: 5px solid white;
-    padding: 30px;
-    margin: 70px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 00px;
 }
 
-.post h2 a, .post h2 a:visited {
-    color: yellow;
-    font-size: 32pt;
+.section h2 a, .section h2 a:visited {
+    color: rgb(255, 196, 0);
+    font-size: 24pt;
 }
 
 .page-header h3, .page-header h3 a, .page-header h3 a:visited, .page-header h3 a:active {
-    color: white;
+    color: yellow;
     font-size: 20pt;
     text-decoration: none;
     text-align: right;

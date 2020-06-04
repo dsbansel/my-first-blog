@@ -63,7 +63,7 @@ h1, h2, h3, h4 {
 }
 
 .page-header h3, .page-header h3 a, .page-header h3 a:visited, .page-header h3 a:active {
-    color: white;
+    color: rgb(255, 196, 0);
     font-size: 20pt;
     text-decoration: none;
     text-align: right;
