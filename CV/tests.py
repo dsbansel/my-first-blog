@@ -31,31 +31,49 @@ class CVPageTest(TestCase):
         found = resolve('/section/1/edit/')  
         self.assertEqual(found.func, section_edit)
 
-    def test_correctly_read_from_database_on_homepage(self):
+    def test_correctly_save_and_read_from_database(self):
+        #save new objects
         Section.objects.create(header='Personal Details')
         Section.objects.create(header='Education')
         Section.objects.create(header='Experience')
 
         response = self.client.get('/CV')
 
+        #does the text that is read match the expected text?
         self.assertIn('Personal Details', response.content.decode())
         self.assertIn('Education', response.content.decode())
         self.assertIn('Experience', response.content.decode())
-
-
         
-"""    
-    def test_can_update_a_POST_request(self):
-        response = self.client.post('/CV', data= {'sections': Section})
-        self.assertIn('A new post', response.content.decode())
-        self.assertTemplateUsed(response, 'section_edit.html')
+        #number of expected objects is equal to actual number of objects?
+        saved_sections = Section.objects.all()
+        self.assertEqual(saved_sections.count(), 3)
 
 
-    def test_section_edit_returns_correct_html(self):
-        response = self.client.get('/section/1/edit/')
-        self.assertTemplateUsed(response, 'CV/section_edit.html')
+    def test_correctly_updates_database(self):
+        #create 2 sections
+        firstSection = Section()
+        firstSection.header = 'Header 1'
+        firstSection.text = 'text 1'
+        firstSection.save()
 
-    def test_section_detail_returns_correct_html(self):
-        response = self.client.get('/section/1/')
-        self.assertTemplateUsed(response, 'CV/section_detail.html')
-        """
+        secondSection = Section()
+        secondSection.header = 'Header 2'
+        secondSection.text = 'text 2'
+        secondSection.save()       
+
+        #change the details
+        firstSection.text = 'block of some text'
+        firstSection.save()
+        secondSection.header = 'Heading 2'
+        secondSection.save()
+
+        #save sections
+        saved_sections = Section.objects.all()
+        self.assertEqual(saved_sections.count(), 2)
+
+        first_saved_item = saved_sections[0]
+        second_saved_item = saved_sections[1]
+
+        #does it recognise the changed or initial text?
+        self.assertEqual(first_saved_item.text, 'block of some text')
+        self.assertEqual(second_saved_item.header, 'Heading 2')
